@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	
+<meta charset="utf-8" />
+
+		<?php 
+        	$sitename="Regime's House Records"; 
+        	$sitedescription="335 SW 11th Street Payments List";
+        	$sitepath="http://people.oregonstate.edu/~jonesry/house_bills/";	
+        
+        ?>
+      
+        
+        
+        <title><?php echo $pagetitle." | ".$sitename." | ".$sitedescription; ?></title>
+        
+        <meta name="description" content="<?php echo $sitedescription; ?>">
+        <meta name="author" content="Ryan Jones" />
+
+		<link rel="stylesheet" href="<?php echo $sitepath; ?>screen.css" media="screen"/>
+</head>
+<body>
+
+<header>
+	<h1><a href="<?php echo $sitepath; ?>">Home</a></h1>
+	<h2>Regime Records Databases</h2>
+</header>
+
+<nav id="menu">
+	<ul>
+		<li><a href="<?php echo $sitepath;?>databases/index.php">Database displaying all previous payments made by all tenants</a></li>
+	</ul>
+</nav>
+
+<section id="content">
+	<h1><?php echo $pagetitle;?></h1>
